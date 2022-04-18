@@ -1,0 +1,39 @@
+.modal {
+  background: #fff;
+  width: 600px;
+  height: 700px;
+  border-radius: 15px;
+  padding: 20px;
+  z-index: 100;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+.body {
+  padding-top: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+}
+.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
+}

@@ -1,0 +1,44 @@
+{
+    "theme_color": "#171513",
+    "background_color": "#eee9e3",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "saiz",
+    "short_name": "saiz",
+    "prefer_related_applications" : false,
+    "description": "Sizing made simple for any brand, even yours! Slash returns & turn browsers into buyers in seconds, with the click of a magic  button. The only online shopping assistant you'll ever need.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+    ]
+}

@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.default__list {
+  list-style: none;
+}
+
+.default__list a {
+  text-decoration: none;
+  color: #f8f8f8;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.default__list a:hover {
+  color: #b91d1d;
+}
+.blockq {
+  background-color: #ecd43c;
+  height: 65px;
+  width: 30px;
+  position: absolute;
+  margin-top: -20px;
+}
+.authenticating {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  height: 70vh;
+}
+.updateProfileCard
+{
+  margin-top: 8rem !important;
+  margin-bottom: 2rem !important;
+  background: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(82, 75, 75, 0.336);
+  padding: 0rem 1rem 2rem 1rem;
+}
+.updateProfileCard h2
+{
+   padding: 1rem;
+}
+
+.unsubscribe
+{
+  margin: 8rem 0 3rem 0;
+}
